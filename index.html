@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://marissamicioniprofile.neocities.org/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marissa Micioni | Computer Science Student at UF</title>
+
+  <meta name="description" content="Portfolio of Marissa Micioni, Computer Science student at the University of Florida interested in cybersecurity, software development, and ethical hacking.">
+  <link href="./Marissa Micioni _ Computer Science Student at UF_files/css2" rel="stylesheet">
+
+  <style>
+   
+    :root {
+      --primary: #c94487; /* Sleek pink accent */
+      --dark: #222;
+      --light: #fafafa;
+      --text: #222;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--dark);
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #ddd;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      color: var(--dark);
+      border-bottom: 2px solid var(--primary);
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 25px;
+      font-size: 1.6em;
+    }
+
+    p {
+      font-size: 1.05em;
+    }
+
+    /* ===== About Section ===== */
+    .profile-img {
+      display: block;
+      margin: 30px auto;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    /* ===== Flex Columns ===== */
+    .two-column {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+    }
+
+    .column {
+      flex: 1 1 450px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* ===== Skills Grid ===== */
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skill {
+      background-color: var(--primary);
+      color: white;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 0.95em;
+      transition: background-color 0.3s ease;
+    }
+
+    .skill:hover {
+      background-color: #e03e91;
+    }
+
+    /* ===== Project Cards ===== */
+    .project-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+
+    .project-card {
+      flex: 1 1 300px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.2em;
+    }
+
+    .project-card p {
+      font-size: 0.95em;
+      color: #444;
+    }
+
+    /* ===== Buttons ===== */
+    .button-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: var(--primary);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #e03e91;
+    }
+
+    /* ===== Contact Popup ===== */
+    .popup {
+      position: relative;
+      display: inline-block;
+    }
+
+    .popuptext {
+      visibility: hidden;
+      width: 240px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      bottom: 120%;
+      left: 50%;
+      margin-left: -120px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .popup.show .popuptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    footer {
+      background-color: var(--dark);
+      color: #ccc;
+      text-align: center;
+      padding: 25px 10px;
+      font-size: 0.9em;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Marissa Micioni</h1>
+    <p>Computer Science Student at the University of Florida | Aspiring Cybersecurity &amp; Software Development Professional</p>
+  </header>
+
+  <main>
+    <!-- ===== About Section ===== -->
+    <section id="about">
+      <img src="./Marissa Micioni _ Computer Science Student at UF_files/IMG_7799.JPG" alt="Portrait of Marissa Micioni" class="profile-img">
+      <p style="text-align:center; max-width:700px; margin:0 auto;">
+        I am a freshman at the University of Florida majoring in Computer Science. 
+        I am developing my skills in programming, cybersecurity, and ethical hacking. 
+        I’m currently focused on mastering the fundamentals of coding, building practical projects, 
+        and preparing for the CompTIA Security+ certification.
+      </p>
+    </section>
+
+    <!-- ===== Education & Experience ===== -->
+    <section id="education">
+      <h2>Education &amp; Experience</h2>
+      <div class="two-column">
+        <div class="column">
+          <h3 style="color: var(--primary);">Fall 2025 Courses</h3>
+          <ul>
+            <li><strong>MAC2311</strong> – Calculus 1</li>
+            <li><strong>COP3502C</strong> – Programming Fundamentals 1</li>
+            <li><strong>SPN</strong> – Intermediate Spanish</li>
+            <li><strong>ENC</strong> – Communication for Engineers</li>
+            <li><strong>Quest 1:</strong> Utopias and Dystopias</li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h3 style="color: var(--primary);">Current Roles &amp; Goals</h3>
+          <ul>
+            <li>FWS Student Assistant, IT – UF College of Pharmacy</li>
+            <li>Member, UF SecurityIT Club</li>
+            <li>Preparing for CompTIA Security+ Certification</li>
+            <li>Planning to participate in a Hackathon (Spring 2026)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Python (Beginner)</div>
+        <div class="skill">Team Collaboration</div>
+        <div class="skill">Problem Solving</div>
+        <div class="skill">HTML &amp; CSS</div>
+        <div class="skill">Time Management</div>
+        <div class="skill">Initiative &amp; Leadership</div>
+      </div>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Python Calculator</h3>
+          <p>Built a command-line calculator that performs basic arithmetic operations and input validation using Python.</p>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Designed and developed this responsive personal website using HTML and CSS to showcase education, skills, and experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== High School Section ===== -->
+    <section id="highschool">
+      <h2>High School Achievements</h2>
+      <ul>
+        <li><strong>Academics:</strong> Graduated within Top 10% from Coral Springs Charter High School (2025)</li>
+        <li><strong>Leadership:</strong> Student Government Association – President (2024–25), Secretary (2023–24), Treasurer (2022–23)</li>
+        <li><strong>Athletics:</strong> Cross Country &amp; Soccer Team Captain – Six years of participation, two years of leadership</li>
+        <li><strong>Clubs:</strong> DECA – Two-time State Qualifier; Track and Field – Six years of competition; NHS – Volunteered and raised money for multiple charities </li>
+      </ul>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact">
+  <h2>Contact</h2>
+  <div class="button-container">
+    <a href="https://www.linkedin.com/in/marissa-micioni-10a491373" class="button" target="_blank">LinkedIn</a>
+    <a href="https://marissamicioniprofile.neocities.org/Marissa_Micioni.pdf" class="button" target="_blank">Resume</a>
+
+    <div class="popup">
+      <a href="https://marissamicioniprofile.neocities.org/#" class="button" onclick="togglePopup(event)">Email Me</a>
+      <div class="popuptext" id="popupText">marissamicioni2025@gmail.com</div>
+    </div>
+
+    <a href="https://github.com/marissamicioni2025-hub" class="button" target="_blank">GitHub</a>
+  </div>
+
+    </section>
+  </main>
+
+
+  <footer>
+    © 2025 Marissa Micioni | University of Florida | Computer Science
+  </footer>
+
+  <script>
+    function togglePopup(event) {
+      event.preventDefault();
+      const popup = document.querySelector('.popup');
+      popup.classList.toggle('show');
+    }
+  </script>
+
+
+
+</body></html>
